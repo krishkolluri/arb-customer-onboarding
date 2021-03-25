@@ -1,8 +1,8 @@
 {
   "name": "my-app",
   "version": "0.1.0",
-  "private": true,
-  "main": "FaceTecSDK.js",
+  "homepage": "https://krishkolluri.github.io/arb-customer-onboarding/",
+  "name": "digital-onboarding-customer",
   "dependencies": {
     "@babel/core": "^7.4.0",
     "@babel/plugin-proposal-class-properties": "^7.4.0",
@@ -29,16 +29,18 @@
     "web-vitals": "^1.1.1"
   },
   "devDependencies": {
-    "webpack": "^4.35.0",
-    "webpack-cli": "^3.3.4"
+    "gh-pages": "^2.2.0"
   },
-  "scripts": {
+    
+   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
-    "facetec-browser-sdk": "webpack --progress  & live-server --host=localhost --port=8000",
+     "facetec-browser-sdk": "webpack --progress  & live-server --host=localhost --port=8000",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
-  },
+  }
   "eslintConfig": {
     "extends": [
       "react-app",
