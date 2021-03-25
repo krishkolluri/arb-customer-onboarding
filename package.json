@@ -1,7 +1,7 @@
 {
   "name": "my-app",
   "version": "0.1.0",
-  "homepage": "https://krishkolluri.github.io/arb-customer-onboarding/",
+  "homepage": "https://krishkolluri.github.io/arb-customer-onboarding",
   "name": "digital-onboarding-customer",
   "dependencies": {
     "@babel/core": "^7.4.0",
