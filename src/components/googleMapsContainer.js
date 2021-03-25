@@ -77,5 +77,5 @@ class GoogleMapsContainer extends React.Component {
 }
 
 export default GoogleApiWrapper({
-    api: 'AIzaSyAz0UhJ6sAEHDezo605kra-hkvAsblf7rg'
+    api: ''
 })(GoogleMapsContainer)
